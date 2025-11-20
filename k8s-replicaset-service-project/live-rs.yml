@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata: 
+   name: live-replica
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: live-dashboard
+  template:
+    metadata:
+      name: pod-1
+      labels:
+        app: live-dashboard
+    spec:
+      containers:
+        - name: con-1
+          image: aaankit/live-dashboard-with-nginx     
+          ports:
+            - containerPort: 80
