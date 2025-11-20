@@ -1,4 +1,4 @@
-# 🚀 K8s of using ReplicaSet and Service ( NodePort )  for live dashboard project 
+#  K8s of using ReplicaSet and Service ( NodePort )  for live dashboard project 
 
 
 ---
@@ -55,9 +55,8 @@ Multiple Apache Pods
 
 When accessed via browser:
 
+http://192.168.31.7:30090
 ```
-http://<NODE-IP>:32000
-```
-You will see a dashboard page displaying: as shown in 
+You will see a dashboard page displaying: as shown in  <img width="1312" height="765" alt="Image" src="https://github.com/user-attachments/assets/3559113f-9201-42fc-ba72-86bcbafc5280" />
 
 ### ⭐ If you like this project, give it a star on GitHub!
